@@ -1,0 +1,21 @@
+﻿class Album
+{
+    private List<Musica> musicaList = new List<Musica>();
+    public string Nome { get; set; }
+    public int DuracaoTotal => musicaList.Sum(m => m.Duracao);
+
+    public void AdicionarMusica(Musica musica)
+    {
+        musicaList.Add(musica);
+    }
+
+    public void ExibirMusicasDoAlbum()
+    {
+        Console.WriteLine($"Lista de musicas do álbum {Nome}: \n");
+        foreach (var musica in musicaList)
+        {
+            Console.WriteLine($"Músia: {musica.Nome}");
+
+        }
+    }
+} 
