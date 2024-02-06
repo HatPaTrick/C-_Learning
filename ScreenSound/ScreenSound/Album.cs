@@ -14,8 +14,9 @@
         Console.WriteLine($"Lista de musicas do álbum {Nome}: \n");
         foreach (var musica in musicaList)
         {
-            Console.WriteLine($"Músia: {musica.Nome}");
+            Console.WriteLine($"Música: {musica.Nome}");
 
         }
+        Console.WriteLine($"Para ouvir este álbum inteiro, você precisa de {DuracaoTotal}");
     }
 } 
