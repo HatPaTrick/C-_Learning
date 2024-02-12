@@ -1,14 +1,15 @@
-﻿using System.Runtime.Remoting;
+﻿Album albumDoQueen = new Album();
+albumDoQueen.Nome = "A night at the opera";
 
 Musica musica1 = new Musica();
-musica1.nome = "Roxane";
-musica1.artista = "The Police";
-musica1.duracao = 273;
+musica1.Nome = "Love of my life";
+musica1.Duracao = 231;
 
 Musica musica2 = new Musica();
-musica2.nome = "Vertigo";
-musica2.artista = "U2";
-musica2.duracao = 367;
+musica2.Nome = "Bohemian Rhapsody";
+musica2.Duracao = 354;
 
-musica1.ExibirFichaTecnica();
-musica2.ExibirFichaTecnica();
+albumDoQueen.AdicionarMusica(musica1);
+albumDoQueen.AdicionarMusica(musica2);
+
+albumDoQueen.ExibirMusicasDoAlbum();
