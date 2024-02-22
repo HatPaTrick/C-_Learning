@@ -24,7 +24,18 @@ public class Filme
 
     public void AdicionarElenco(string ator)
     {
+        if (Elenco.Contains(ator))
+        {
+            Console.WriteLine($"O {ator} já está incluído(a) no elenco.");
+            return;
+        }
         Elenco.Add(ator);
+        var artista = new Artista(ator, 0); // Cria uma nova instância da classe Artista
+        if (!artista.FilmesAtuados.Contains(this))
+        {
+            artista.AdicionarFilme(this);
+        }
+
         Console.WriteLine($"{ator} adicionado/a com sucesso");
     }
 

@@ -1,4 +1,5 @@
 ﻿namespace Alura.Filmes;
+using Alura.Filmes;
 
 public class Artista
 {
@@ -18,7 +19,7 @@ public class Artista
     public void AdicionarFilme(Filme filme) 
     {
         FilmesAtuados.Add(filme);
-        if (!filme.Elenco.Contains(this)) filme.AdicionarElenco(this);
+        if (!filme.Elenco.Contains(this.ToString())) filme.AdicionarElenco(this.ToString());
     }
 
     public void MostrarFilmesAtuados()

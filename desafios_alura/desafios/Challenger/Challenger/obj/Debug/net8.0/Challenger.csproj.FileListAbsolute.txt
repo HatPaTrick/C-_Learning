@@ -12,3 +12,18 @@ C:\Users\ramos\OneDrive\Documentos\VS Projetos\Challenger\Challenger\obj\Debug\n
 C:\Users\ramos\OneDrive\Documentos\VS Projetos\Challenger\Challenger\obj\Debug\net8.0\Challenger.pdb
 C:\Users\ramos\OneDrive\Documentos\VS Projetos\Challenger\Challenger\obj\Debug\net8.0\Challenger.genruntimeconfig.cache
 C:\Users\ramos\OneDrive\Documentos\VS Projetos\Challenger\Challenger\obj\Debug\net8.0\ref\Challenger.dll
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\desafios_alura\desafios\Challenger\Challenger\bin\Debug\net8.0\Challenger.exe
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\desafios_alura\desafios\Challenger\Challenger\bin\Debug\net8.0\Challenger.deps.json
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\desafios_alura\desafios\Challenger\Challenger\bin\Debug\net8.0\Challenger.runtimeconfig.json
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\desafios_alura\desafios\Challenger\Challenger\bin\Debug\net8.0\Challenger.dll
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\desafios_alura\desafios\Challenger\Challenger\bin\Debug\net8.0\Challenger.pdb
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\desafios_alura\desafios\Challenger\Challenger\obj\Debug\net8.0\Challenger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\desafios_alura\desafios\Challenger\Challenger\obj\Debug\net8.0\Challenger.AssemblyInfoInputs.cache
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\desafios_alura\desafios\Challenger\Challenger\obj\Debug\net8.0\Challenger.AssemblyInfo.cs
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\desafios_alura\desafios\Challenger\Challenger\obj\Debug\net8.0\Challenger.csproj.CoreCompileInputs.cache
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\desafios_alura\desafios\Challenger\Challenger\obj\Debug\net8.0\Challenger.sourcelink.json
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\desafios_alura\desafios\Challenger\Challenger\obj\Debug\net8.0\Challenger.dll
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\desafios_alura\desafios\Challenger\Challenger\obj\Debug\net8.0\refint\Challenger.dll
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\desafios_alura\desafios\Challenger\Challenger\obj\Debug\net8.0\Challenger.pdb
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\desafios_alura\desafios\Challenger\Challenger\obj\Debug\net8.0\Challenger.genruntimeconfig.cache
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\desafios_alura\desafios\Challenger\Challenger\obj\Debug\net8.0\ref\Challenger.dll
