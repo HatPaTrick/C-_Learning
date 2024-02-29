@@ -1,47 +1,36 @@
-﻿
-class Pet
+﻿public class Calculadora
 {
-    public Pet(string nome, int idade, string especie)
+    public static double Calcular(double numero1, double numero2, char operacao)
     {
-        Nome = nome;
-        Idade = idade;
-        Especie = especie;
+        double resultado = 0;
+
+        switch (operacao)
+        {
+            case '+':
+                resultado = Somar(numero1 + numero2);
+                break;
+            case '-':
+                resultado = Subtrair(numero1 - numero2);
+                break;
+            case '*':
+                resultado = Multiplicar(numero1 * numero2);
+                break;
+            case '/':
+                resultado = Dividir(numero1 / numero2);
+                break;
+            case '%':
+                resultado = Porcentagem(numero1, numero2);
+                break;
+            case '^':
+                resultado = Potencia(numero1, numero2);
+                break;
+            case 'r':
+                resultado = RaizQuadrada(numero1);
+                break;
+            default:
+                resultado = 0;
+                break;
+
+        }
     }
-
-    public string Nome { get; }
-    public int Idade { get; }
-    public string Especie { get; }
-}
-
-class Dono
-{
-    public Dono(string nome, string contato)
-    {
-        Nome = nome;
-        Contato = contato;
-    }
-
-    public string Nome { get; }
-    public string Contato { get; }
-
-
-}
-
-class Consulta
-{
-    public Pet Animal { get; }
-    public Dono Dono { get; }
-}
-
-class Medico
-{
-    public Medico(string nome, string especialidade)
-    {
-        Nome = nome;
-        Especialidade = especialidade;
-    }
-
-    public string Nome { get; }
-    public string Especialidade { get; }
-
 }

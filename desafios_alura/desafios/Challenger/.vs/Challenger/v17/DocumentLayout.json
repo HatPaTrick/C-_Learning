@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{43EA8CB8-061E-4D9A-8D41-05A72D771C7D}|Challenger\\Challenger.csproj|c:\\users\\ramos\\onedrive\\documentos\\github\\c-_learning\\desafios_alura\\desafios\\challenger\\challenger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43EA8CB8-061E-4D9A-8D41-05A72D771C7D}|Challenger\\Challenger.csproj|solutionrelative:challenger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EA8CB8-061E-4D9A-8D41-05A72D771C7D}|Challenger\\Challenger.csproj|c:\\users\\ramos\\onedrive\\documentos\\github\\c-_learning\\desafios_alura\\desafios\\challenger\\challenger\\oficina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EA8CB8-061E-4D9A-8D41-05A72D771C7D}|Challenger\\Challenger.csproj|solutionrelative:challenger\\oficina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Oficina.cs",
+              "DocumentMoniker": "C:\\Users\\ramos\\OneDrive\\Documentos\\GitHub\\C-_Learning\\desafios_alura\\desafios\\Challenger\\Challenger\\Oficina.cs",
+              "RelativeDocumentMoniker": "Challenger\\Oficina.cs",
+              "ToolTip": "C:\\Users\\ramos\\OneDrive\\Documentos\\GitHub\\C-_Learning\\desafios_alura\\desafios\\Challenger\\Challenger\\Oficina.cs",
+              "RelativeToolTip": "Challenger\\Oficina.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T17:35:58.312Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "Challenger\\Program.cs",
               "ToolTip": "C:\\Users\\ramos\\OneDrive\\Documentos\\GitHub\\C-_Learning\\desafios_alura\\desafios\\Challenger\\Challenger\\Program.cs",
               "RelativeToolTip": "Challenger\\Program.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAQwC4AAAABAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwB0AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-22T13:11:16.622Z",
               "EditorCaption": ""
