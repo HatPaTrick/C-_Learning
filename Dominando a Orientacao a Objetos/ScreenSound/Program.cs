@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ScreenSound.Menus;
 using ScreenSound.Modelos;
 
 Banda ira = new("Ira!");
@@ -56,7 +57,9 @@ void ExibirOpcoesDoMenu()
             AvaliarUmaBanda();
             break;
         case 5:
-            ExibirDetalhes();
+            MenuExibirDetalhes menu = new MenuExibirDetalhes();
+            menu.Executar(bandasRegistradas);
+            ExibirOpcoesDoMenu();
             break;
         case -1:
             Console.WriteLine("Tchau tchau :)");
@@ -163,42 +166,5 @@ void AvaliarUmaBanda()
 
 }
 
-void ExibirDetalhes()
-{
-    Console.Clear();
-    ExibirTituloDaOpcao("Exibir detalhes da banda");
-    Console.Write("Digite o nome da banda que deseja conhecer melhor: ");
-    string nomeDaBanda = Console.ReadLine()!;
-    if (bandasRegistradas.ContainsKey(nomeDaBanda))
-    {
-        Banda banda = bandasRegistradas[nomeDaBanda];
-        if (banda.Media == 0)
-        {
-            Console.WriteLine($"\nA banda {nomeDaBanda} não possui avaliação.");
-        }
-        else 
-        {
-            Console.WriteLine($"\nA média da banda {nomeDaBanda} é {banda.Media}.");
-
-        }
-
-        /**
-        * ESPAÇO RESERVADO PARA COMPLETAR A FUNÇÃO
-        */
-        Console.WriteLine("Digite uma tecla para votar ao menu principal");
-        Console.ReadKey();
-        Console.Clear();
-        ExibirOpcoesDoMenu();
-
-    }
-    else
-    {
-        Console.WriteLine($"\nA banda {nomeDaBanda} não foi encontrada!");
-        Console.WriteLine("Digite uma tecla para voltar ao menu principal");
-        Console.ReadKey();
-        Console.Clear();
-        ExibirOpcoesDoMenu();
-    }
-}
 
 ExibirOpcoesDoMenu();
