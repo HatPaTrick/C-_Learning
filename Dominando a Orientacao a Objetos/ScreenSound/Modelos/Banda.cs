@@ -3,7 +3,7 @@ namespace ScreenSound.Modelos;
 
 internal class Banda
 {
-    private List<Album> albuns = new List<Album>();
+    private List<Album> albuns = new();
     private List<Avaliacao> notas = new();
 
     public Banda(string nome)

@@ -57,7 +57,7 @@ class Circulo : FormaGeometrica
     }
 }
 
-*/
+
 
 class Funcionarios
 {
@@ -80,4 +80,48 @@ class Programador : Funcionarios
 class Analista : Funcionarios
 {
     public string AreaDeAtuacao { get; set; }
+}
+
+*/
+
+
+
+class ContaBancaria
+{
+    protected double Saldo { get; set; }
+
+    public virtual void Depositar(double valor)
+    {
+        Saldo += valor;
+    }
+    
+    public virtual void Sacar (double valor)
+    {
+        Saldo -= valor;
+    }
+
+    public virtual double ConsultarSaldo()
+    {
+        return Saldo;
+    }
+}
+
+class ContaCorrente : ContaBancaria
+{
+    private double TaxaManutencao { get; set; }
+
+    public override void Sacar(double valor)
+    {
+        base.Sacar(valor + TaxaManutencao);
+    }
+}
+
+class ContaPoupanca : ContaBancaria
+{
+    private double TaxaJuros { get; set; }
+
+    public override double ConsultarSaldo()
+    {
+        return base.ConsultarSaldo() * (1 + TaxaJuros);
+    }
 }
