@@ -1,127 +1,121 @@
-﻿namespace Program;
-
-/*abstract class FormaGeometrica
+﻿/*public interface IForma
 {
-    public abstract double CalcularArea();
-    public abstract double CalcularPerimetro();
+    double CalcularArea();
+    double CalcularPerimetro();
 }
 
-
-
-
-class Trigangulo : FormaGeometrica
+public class Circulo : IForma
 {
-    public double A { get; set; }
-    public double B { get; set; }
-    public double C { get; set; }
+    public double Raio { get; set; }
 
-    public override double CalcularArea()
+    public double CalcularArea()
     {
-        return 0.5 * A * C;
+        return Math.PI * Math.Pow(Raio, 2);
     }
 
-    public override double CalcularPerimetro()
+    public double CalcularPerimetro()
     {
-        return A + B + C + Math.Sqrt((A - B) * (A - B) + (B - C) * (B - C));
+       return 2 * Math.PI * Raio;
     }
 }
 
-
-class Quadrado : FormaGeometrica
+public class Retangulo : IForma
 {
-   public double Lado { get; set; }
+    public double Comprimento { get; set; }
+    public double Largura { get; set; }
 
-    public override double CalcularArea()
+    public double CalcularArea()
     {
-        return Lado * Lado;
+        return Comprimento * Largura;
     }
 
-    public override double CalcularPerimetro()
+    public double CalcularPerimetro()
     {
-        return 4 * Lado;
-    }
-}
-
-class Circulo : FormaGeometrica
-{
-    public double R { get; set; }
-
-    public override double CalcularArea()
-    {
-        return Math.PI * R * R;
-    }
-
-    public override double CalcularPerimetro()
-    {
-        return 2 * Math.PI * R;
+        return 2 * (Comprimento + Largura);
     }
 }
 
-
-
-class Funcionarios
+*/
+/*
+public interface IPilotavel
 {
-    public string Nome { get; set; }
-    public string Funcao { get; set; }
-    public double Salario { get; set; }
+    void Pilotar();
 }
 
-class Gerente : Funcionarios
+public interface IVoavel
 {
-    public string Setor { get; set; }
+    void Voar();
 }
 
-class Programador : Funcionarios
+public class Veiculo : IPilotavel, IVoavel
 {
-    public string LinguagemDeProgramacao { get; set; } // C#, C++, Jav
-    public string Framework { get; set; }
-}
+    public void Pilotar()
+    {
+        Console.WriteLine("Pilotando");
+    }
 
-class Analista : Funcionarios
-{
-    public string AreaDeAtuacao { get; set; }
+    public void Voar()
+    {
+        Console.WriteLine("Veiculo está voando");
+    }
 }
 
 */
 
+/*
+using System.Security.Cryptography.X509Certificates;
 
-
-class ContaBancaria
+public interface IPagavel
 {
-    protected double Saldo { get; set; }
+    decimal CalcularPagamento();
+}
 
-    public virtual void Depositar(double valor)
+public class Produto : IPagavel
+{
+    public string Nome { get; set; }
+    public decimal PrecoUnitario { get; set; } 
+    public int Quantidade { get; set; }
+
+        public decimal CalcularPagamento()
+        {
+            return PrecoUnitario * Quantidade;
+        }
+}
+
+public class Servico : IPagavel
+{
+    public string Nome { get; set; }
+    public decimal PrecoUnitario { get; set; }
+    public int HorasTrabalhadas { get; set; }
+
+    public decimal CalcularPagamento()
     {
-        Saldo += valor;
-    }
-    
-    public virtual void Sacar (double valor)
-    {
-        Saldo -= valor;
+        return PrecoUnitario * HorasTrabalhadas;
     }
 
-    public virtual double ConsultarSaldo()
+}
+*/
+
+public interface INotificavel
+{
+    void EnviarNotificacao();
+}
+
+public class SMS : INotificavel
+{
+    public string NumeroTelefone { get; set; }
+    public void EnviarNotificacao()
     {
-        return Saldo;
+        Console.WriteLine($"Enviando SMS para {NumeroTelefone}: Notificação importante!");
     }
 }
 
-class ContaCorrente : ContaBancaria
+public class Email : INotificavel
 {
-    private double TaxaManutencao { get; set; }
+    public string EnderecoEmail { get; set; }
 
-    public override void Sacar(double valor)
+    public void EnviarNotificacao()
     {
-        base.Sacar(valor + TaxaManutencao);
+        Console.WriteLine($"Enviando e-mail para {EnderecoEmail}: Notificação importante!");
     }
-}
-
-class ContaPoupanca : ContaBancaria
-{
-    private double TaxaJuros { get; set; }
-
-    public override double ConsultarSaldo()
-    {
-        return base.ConsultarSaldo() * (1 + TaxaJuros);
-    }
-}
+}   
