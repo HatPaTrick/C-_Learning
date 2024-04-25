@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using ScreenSound.Menus;
+﻿using ScreenSound.Menus;
 using ScreenSound.Modelos;
 
 Banda ira = new("Ira!");
