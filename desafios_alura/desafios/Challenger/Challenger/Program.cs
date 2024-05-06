@@ -61,7 +61,6 @@ public class Veiculo : IPilotavel, IVoavel
 }
 
 */
-
 /*
 using System.Security.Cryptography.X509Certificates;
 
