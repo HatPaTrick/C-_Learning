@@ -10,35 +10,41 @@ using (HttpClient client = new HttpClient()){
     }
 }*/
 
-/** 
-public class Flamengo()
+public class Program
 {
-int a;
-int b;
-    public void AinFlamengo()
+    static void Main(string[] args)
     {
-            Console.WriteLine("Digite o primeiro numero: ");
-                a = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite o segundo numero: ");
-                b = int.Parse(Console.ReadLine());
         try
         {
-            Console.WriteLine($"Resultado   : {a/b}");
-        }catch(Exception e){
-            Console.WriteLine(e.Message);
+            double a;
+            double b;
+            Console.Write($"Digite um Numero: ");
+            a = double.Parse(Console.ReadLine());
+            Console.Write($"Digite outro Numero: ");
+            b = double.Parse(Console.ReadLine());
+
+            double resultado = a / b;
+            Console.WriteLine($"{resultado}");
+            
+        }catch(DivideByZeroException e)
+        {
+            Console.WriteLine($"Texto: {e.Message}");
+            
         }
     }
 }
-*/     
    
-
-class Program{
+/**class Program{
     public static void Main(string[] args){
             List<int> numeros = new List<int> {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
 
             try {
-                int valor = numeros[10];
-                Console.WriteLine(valor);
+                foreach(int numero in numeros){
+                    if(numero < 0){
+                        throw new ArgumentOutOfRangeException("O numero não pode ser negativo");
+                    }
+                    Console.WriteLine(numero);
+                }
             }catch(ArgumentOutOfRangeException ex){
                 Console.WriteLine($"Erro: {ex.Message}");
                 
@@ -48,4 +54,44 @@ class Program{
 
     }
 }
+ */
 
+
+/**
+class Pessoa
+{
+    public string Nome { get; set; }
+
+    public void ExibirNome()
+    {
+        Console.WriteLine($"Nome: {Nome}");
+        
+    }
+}
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Pessoa pessoa = new Pessoa();
+        
+        try
+        {
+
+            if(pessoa == null){
+                throw new NullReferenceException("Objeto nulo");
+            } else{
+                pessoa.Nome = "João";
+                pessoa.ExibirNome();
+            } // Chamando o método em um objeto nulo
+        }
+        catch (NullReferenceException ex)
+        {
+            Console.WriteLine("Erro: " + ex.Message);
+        }
+
+        Console.ReadLine();
+    }
+}
+
+ */
