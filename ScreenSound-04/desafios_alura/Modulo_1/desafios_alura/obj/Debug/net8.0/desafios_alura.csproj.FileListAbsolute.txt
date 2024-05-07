@@ -1,0 +1,15 @@
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\ScreenSound-04\desafios_alura\Modulo_1\desafios_alura\bin\Debug\net8.0\desafios_alura.exe
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\ScreenSound-04\desafios_alura\Modulo_1\desafios_alura\bin\Debug\net8.0\desafios_alura.deps.json
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\ScreenSound-04\desafios_alura\Modulo_1\desafios_alura\bin\Debug\net8.0\desafios_alura.runtimeconfig.json
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\ScreenSound-04\desafios_alura\Modulo_1\desafios_alura\bin\Debug\net8.0\desafios_alura.dll
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\ScreenSound-04\desafios_alura\Modulo_1\desafios_alura\bin\Debug\net8.0\desafios_alura.pdb
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\ScreenSound-04\desafios_alura\Modulo_1\desafios_alura\obj\Debug\net8.0\desafios_alura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\ScreenSound-04\desafios_alura\Modulo_1\desafios_alura\obj\Debug\net8.0\desafios_alura.AssemblyInfoInputs.cache
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\ScreenSound-04\desafios_alura\Modulo_1\desafios_alura\obj\Debug\net8.0\desafios_alura.AssemblyInfo.cs
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\ScreenSound-04\desafios_alura\Modulo_1\desafios_alura\obj\Debug\net8.0\desafios_alura.csproj.CoreCompileInputs.cache
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\ScreenSound-04\desafios_alura\Modulo_1\desafios_alura\obj\Debug\net8.0\desafios_alura.sourcelink.json
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\ScreenSound-04\desafios_alura\Modulo_1\desafios_alura\obj\Debug\net8.0\desafios_alura.dll
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\ScreenSound-04\desafios_alura\Modulo_1\desafios_alura\obj\Debug\net8.0\refint\desafios_alura.dll
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\ScreenSound-04\desafios_alura\Modulo_1\desafios_alura\obj\Debug\net8.0\desafios_alura.pdb
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\ScreenSound-04\desafios_alura\Modulo_1\desafios_alura\obj\Debug\net8.0\desafios_alura.genruntimeconfig.cache
+C:\Users\ramos\OneDrive\Documentos\GitHub\C-_Learning\ScreenSound-04\desafios_alura\Modulo_1\desafios_alura\obj\Debug\net8.0\ref\desafios_alura.dll
