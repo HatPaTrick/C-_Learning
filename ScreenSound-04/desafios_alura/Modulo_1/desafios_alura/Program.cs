@@ -34,18 +34,18 @@ int b;
 
 class Program{
     public static void Main(string[] args){
-            List<int> numeros = new List<int> {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+            List<int> numeros = new List<int> {10, 20, 30, 40, 50, 60, 70, 80, 90};
 
             try {
-                int valor = numeros[10];
-                Console.WriteLine(valor);
+                foreach(int numero in numeros){
+                Console.WriteLine(numero);
+            }
             }catch(ArgumentOutOfRangeException ex){
                 Console.WriteLine($"Erro: {ex.Message}");
                 
             }catch(Exception ex){
                 Console.WriteLine($"Erro inexperado: {ex.Message}");
             }
-
     }
 }
 
