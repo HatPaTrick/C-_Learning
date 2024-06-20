@@ -1,4 +1,5 @@
-﻿using (HttpClient client = new HttpClient())
+﻿using (HttpClient client = new  HttpClient())
 {
-    client.GetStringAsync
+    
 }
+            
