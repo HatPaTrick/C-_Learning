@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("desafios_alura")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d483406f23b8ad62e4f22d33479b23d9d7f38475")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+457fad6d7afb10e9eea61795a3e35e6f044f57de")]
 [assembly: System.Reflection.AssemblyProductAttribute("desafios_alura")]
 [assembly: System.Reflection.AssemblyTitleAttribute("desafios_alura")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
