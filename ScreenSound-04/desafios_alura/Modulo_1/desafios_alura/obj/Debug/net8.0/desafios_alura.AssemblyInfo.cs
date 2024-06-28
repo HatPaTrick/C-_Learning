@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+deaff7921855b4874ab8b5ce6e01259660ee02ae")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+457fad6d7afb10e9eea61795a3e35e6f044f57de")]
+>>>>>>> parent of deaff79 (Flamengo)
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+457fad6d7afb10e9eea61795a3e35e6f044f57de")]
 >>>>>>> parent of deaff79 (Flamengo)
