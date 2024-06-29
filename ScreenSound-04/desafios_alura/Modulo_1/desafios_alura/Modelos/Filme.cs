@@ -1,18 +1,16 @@
-using System.Text.Json.Serialization;
 
-public class Pais
+class Personagem
 {
-    [JsonPropertyName("nome")]
-    public string Nome { get; set; }
-    [JsonPropertyName("capital")]
-    public string Capital { get; set; }
-    [JsonPropertyName("continente")]
-    public string Continente { get; set; }
-    [JsonPropertyName("populacao")]
-    public int Populacao { get; set; }
-    [JsonPropertyName("idioma")]
-    public string Idioma {get; set;}
+    public string name { get; set; } 
+    public List<string>? aliases { get; set; }
 
-    public string FichaPais => $"Nome: {Nome}\nCapital: {Capital}\nContinente: {Continente}\nPopulação: {Populacao}\nIdioma: {Idioma}\n\n";
-
+    public void ExibirApelidosDosPersonagens()
+    {
+        System.Console.WriteLine($"Nome: {name}");
+        System.Console.WriteLine($"Apelidos:");
+        foreach(var apelido in aliases)
+        {
+            System.Console.WriteLine($" - {apelido}");
+        }
+    }
 }
