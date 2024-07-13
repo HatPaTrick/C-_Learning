@@ -24,5 +24,14 @@ namespace ScreenSound_04.Filtros;
             }
         }
 
-
+    
+        public static void FiltrarMusicasPorArtista(List<Musica> musicas, string artistas)
+        {
+                var musicasFiltradas = musicas.Where(musicas => musicas.Artista!.Equals(artistas)).ToList();
+                System.Console.WriteLine($"Lista de Musicas do Artista: {artistas} ");
+                foreach(var musica in musicasFiltradas)
+                {
+                    System.Console.WriteLine($" -> {musica.Nome} ");
+                }
+        }
     }

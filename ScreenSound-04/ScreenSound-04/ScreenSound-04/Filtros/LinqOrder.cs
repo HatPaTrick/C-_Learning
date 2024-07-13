@@ -18,5 +18,18 @@ namespace ScreenSound_04.Filtros
                 System.Console.WriteLine($" -> {artista}");
             }
         }
+
+        public static void FiltrarMusicasPorAno(List<Musica> musicas)
+        {
+            var musicasPorAno = musicas.GroupBy(musica => musica.Ano).OrderBy(x => x.All(y => y.Ano != null)).ToList();
+            foreach(var ano in musicasPorAno)
+            {
+                System.Console.WriteLine($"Ano: {ano.Key}");
+                foreach(var musica in ano)
+                {
+                    System.Console.WriteLine($" -> {musica.Nome}");
+                }
+            }
+        }
     }
 }

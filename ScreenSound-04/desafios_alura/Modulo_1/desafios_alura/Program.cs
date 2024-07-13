@@ -1,11 +1,8 @@
-﻿
+﻿List<string> palavras = new List<string> { "banana", "maçã", "abacaxi", "laranja", "uva" };
 
-using System.Text.Json;
+    var palavrasOrdenadas = palavras.OrderBy(p => p.Last()).ThenBy(p => p.Length).ToList();
 
-using (HttpClient client = new HttpClient())
-{
-    string json = await client.GetStringAsync("https://www.anapioficeandfire.com/api/characters/16");
-
-    Personagem margaery = JsonSerializer.Deserialize<Personagem>(json)!;
-    margaery.ExibirApelidosDosPersonagens();
-}
+    foreach(var palavra in palavrasOrdenadas)
+    {
+        System.Console.WriteLine(palavra);
+    }

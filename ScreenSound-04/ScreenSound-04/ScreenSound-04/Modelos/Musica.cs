@@ -11,6 +11,8 @@ namespace ScreenSound_04.Modelos;
         public int Duracao { get; set; }
         [JsonPropertyName("genre")]
         public string? Genero { get; set; }
+        [JsonPropertyName("year")]
+        public string? Ano {get; set; }
 
     public void ExibirDetalhesDaMusica()
     {

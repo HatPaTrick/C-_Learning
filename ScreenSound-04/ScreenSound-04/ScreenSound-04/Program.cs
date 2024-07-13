@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using System.Linq;
+using System.Text.Json;
 using ScreenSound_04.Filtros;
 using ScreenSound_04.Modelos;
 
@@ -11,7 +12,9 @@ using (HttpClient client = new HttpClient())
         var musicas = JsonSerializer.Deserialize<List<Musica>>(result)!;
         //LinqFilter.FiltrarTodosOsGeneros(musicas);
         //LinqOrder.ExibirListaDeArtistasOrdenados(musicas);
-        LinqFilter.FiltrarArtistasPorGenero(musicas, "rock");
+        //LinqFilter.FiltrarArtistasPorGenero(musicas, "rock");
+        //LinqFilter.FiltrarMusicasPorArtista(musicas,"MK");
+        LinqOrder.FiltrarMusicasPorAno(musicas);
     }catch(Exception e)
     {
         System.Console.WriteLine("Error: " + e.Message);
