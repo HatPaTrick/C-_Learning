@@ -12,7 +12,14 @@ namespace ScreenSound_04.Modelos;
         [JsonPropertyName("genre")]
         public string? Genero { get; set; }
         [JsonPropertyName("year")]
-        public string? Ano {get; set; }
+        public string? AnoString { get; set; }
+        public int Ano
+        {
+            get
+            {
+                return int.Parse(AnoString!); // Transforma a string em um inteiro
+            }
+        }
 
     public void ExibirDetalhesDaMusica()
     {
